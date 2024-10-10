@@ -60,7 +60,8 @@ export const leftSx: SxProps = {
 
 export const backgroundSx: SxProps = {
   position: 'absolute',
-  right: '-8%',
+  right: { md: '-8%' },
+  left: { xs: '10%', md: 'auto' },
   top: 0,
   zIndex: -1,
   '::after': {

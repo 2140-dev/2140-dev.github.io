@@ -64,7 +64,6 @@ export const Header = () => {
       sx={{
         color: 'primary.main',
         position: 'absolute',
-        overflow: 'hidden',
         width: '100%',
         zIndex: 999,
       }}
